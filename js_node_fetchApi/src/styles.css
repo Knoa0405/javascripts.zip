@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+  }
+  .table {
+    display: flex;
+  }
+  .rank {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .name {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .price {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
