@@ -1,0 +1,99 @@
+:root {
+  /* color */
+  --color-black: #3f454d;
+  --color-white: #ffffff;
+  --color-blue: #3b88c3;
+  --color-yellow: #fbbe28;
+  --color-pink: #fd7f84;
+  --color-light-grey: #dfdfdf;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3f454d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shopping-box {
+  margin-top: 50px;
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+header {
+  width: 400px;
+  height: 100px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+}
+
+header .button {
+  cursor: pointer;
+  display: block;
+  padding: 7px 10px 0px 10px;
+  border: 1px solid black;
+  font-weight: 600;
+  height: 40px;
+  border-radius: 4px;
+}
+
+header .button.blue {
+  background-color: #3b88c3;
+}
+
+header .button.yellow {
+  background-color: #fbbe28;
+}
+
+header .button.pink {
+  background-color: #fd7f84;
+}
+
+main {
+  overflow: scroll;
+}
+
+main::-webkit-scrollbar {
+  display: none;
+}
+
+main ul {
+  margin: 0;
+  padding: 0;
+}
+
+main ul li {
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background: white;
+  width: 400px;
+  height: 50px;
+  line-height: 45px;
+}
+
+main ul li img {
+  justify-self: start;
+  margin: 5px 60px 5px 15px;
+  width: 40px;
+}
+
+main ul li:last-child {
+  margin-bottom: 0px;
+}
