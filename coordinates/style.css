@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background: black;
+}
+
+img {
+  position: absolute;
+}
+
+.vertical {
+  background: white;
+  width: 1px;
+  height: 100%;
+  position: absolute;
+}
+
+.horizontal {
+  background: white;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+}
+
+.location {
+  margin: 20px;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+}
